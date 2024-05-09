@@ -1,0 +1,6 @@
+.container-fluid{
+    padding: 7rem 0;
+    background-image: url(../../image/cloudd.jpg);
+    background-size: cover;
+    height: 900px;
+}

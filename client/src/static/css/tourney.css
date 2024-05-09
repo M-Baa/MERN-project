@@ -1,0 +1,92 @@
+.tpage {
+    background-image: url('../images/anime-style-clouds.jpg');
+    height: 900px;
+    background-size: cover;
+}
+
+.section {
+    margin: 0 30px;
+}
+
+
+.join-btn {
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: width 0.5s ease-in-out;
+}
+
+.join-btn:hover {
+    width: 200px;
+    box-shadow: 0 4px 8px black;
+    background-color: #2CAAF7;
+    color: white;
+    text-decoration: none;
+}
+
+.t1 {
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+}
+
+.s-fighter {
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    width: 410px;
+    height: 480px;
+
+}
+
+.cd {
+    width: 410px;
+    height: 480px;
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+.cd:hover {
+    box-shadow: 0 4px 8px black;
+    width: 420px;
+    height: 490px;
+    background-color: rgba(128, 128, 128, 0.48);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin: 0px 20px;
+    color: white;
+
+}
+
+.top-link {
+    color: white;
+    text-decoration: none;
+}
+
+.ft-links {
+    text-decoration: none;
+    color: black;
+}
+
+.btm-section {
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.timer {
+    font-size: 5px;
+}

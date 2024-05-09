@@ -1,0 +1,52 @@
+/* src/components/RequestList.css */
+
+.request-list-container {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
+
+.request-list {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: row; */
+	margin: 2%;
+	height: 20px;
+}
+
+.request-item {
+	margin: 1%;
+
+	padding: 10px;
+	width: 400px;
+	height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #ffffffb9;
+	border-radius: 20px;
+}
+
+.resident-name {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.request-content {
+	margin-bottom: 10px;
+}
+
+.likes {
+	color: #47085e;
+}
+
+.like-button {
+	background-color: #bd29ac;
+	color: #fff;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

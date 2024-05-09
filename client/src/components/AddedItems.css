@@ -1,0 +1,53 @@
+/* AddedItems.css */
+.cherif {
+    background-image: url('../images/cloud.jpg'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+    margin: 0;
+    padding: 0;
+    height: 90rem;
+}
+
+/* Container styles */
+.added-items-container {
+    
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 100%;
+
+}
+
+/* Heading styles */
+.added-items-heading {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* List styles */
+.added-items-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+.added-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Name styles */
+.added-item-name {
+    font-weight: bold;
+}
+
+/* Quantity styles */
+.added-item-quantity {
+    color: #666;
+}
